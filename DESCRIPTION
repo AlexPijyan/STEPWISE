@@ -1,0 +1,13 @@
+Package: STEPWISE
+Type: Package
+Title: STEPWISE method
+Version: 0.1.0
+Author: c(
+    person("Alex", "Pijyan", email = "pijyanal@msu.edu", role = c("cre", "aut")),
+    person("Hyokyoung G.", "Hong", email = "hhong@msu.edu", role = "aut"))
+Description: Consistant Estimation and Variable Selection of Generalized Linear Models (GLM) via Stepwise Regression
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: parallel, doParallel, foreach, magrittr
+RoxygenNote: 7.1.1
