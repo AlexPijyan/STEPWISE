@@ -2,7 +2,7 @@
 An R package for STEPWISE method implementation
 
 # Description
-The package carries out STEPWISE method that performs a variable selection and consistent estimation of the model parameters in Generalized Linear Models (GLM) via stepwise regression.
+The package carries out STEPWISE method that performs a model selection and consistent estimation of the parameters in Generalized Linear Models (GLM) via stepwise regression.
 
 # Dependency
 The functions in this package involve parallel computing elements and rely on `parallel`, `doParallel` and `foreach` packages.
@@ -15,7 +15,7 @@ library("STEPWISE")
 ```
 
 # Example
-Suppose we generate data according to `Example 1` from the file `Simulation` with `N = 400` and `p = 1000`, where the response variable follows `Gaussian` distribution. The following code illustrates the utilization of the `STEPWISE` function:
+Suppose we generate data according to `Example 1` from the file `Simulation_examples` with `N = 400` and `p = 1000`, where the response variable follows `Gaussian` distribution. The following code illustrates the utilization of the `STEPWISE` function:
 
 ```
 library("STEPWISE")
